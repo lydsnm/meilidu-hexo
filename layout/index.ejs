@@ -11,8 +11,8 @@
 <% }) %>
 
 <% if (page.total > page.current){ %>
-	<span class="different-posts">📖 <a href="/page/<%= page.current + 1 %>">more posts</a> 📖</span>
+	<span class="different-posts">📖 <a href="/page/<%= page.current + 1 %>">>>> 更多 <<<<</a> 📖</span>
 <% } %>
 <% if(page.current === page.total) { %>
-	<span class="different-posts">📕 end of posts 📕</span>
+	<span class="different-posts">---- 到底啦 ----</span>
 <% } %>

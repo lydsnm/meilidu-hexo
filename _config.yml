@@ -1,7 +1,10 @@
 menu:
+ Home: /
  Archive: /archives
- Tags: /tags
+ Tags: /tags/
+ Techblog: http://lydsnm.top
  RSS: /atom.xml
+ About: /about/
 
 widgets:
  - greeting
@@ -9,7 +12,7 @@ widgets:
 
 rss: /atom.xml
 
-readMore: ...read more
+readMore: 查看全文
 
 feed:
   type: atom
